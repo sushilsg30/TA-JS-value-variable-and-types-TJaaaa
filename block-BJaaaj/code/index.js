@@ -32,6 +32,7 @@ let isAdmin = "true";
 alert(name);
 alert(newUser);
 alert(isAdmin);
+
 // Assignment and re-assignment
 
 var wiseMan = "Tyrion Lannister";
