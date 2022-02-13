@@ -46,7 +46,7 @@ let userName = prompt("Enter your name");
 let userProfession = prompt ("Enter your profession");
 let isAdult = confirm ("Are you an Adult?");
 alert("I am" + userName "a" + userProfession);
-console.log ("I am " +userName "a" userProfession);
+console.log ("I am " + userName "a" userProfession);
 alert(userName);
 alert(Adult);
 alert(userProfession);
