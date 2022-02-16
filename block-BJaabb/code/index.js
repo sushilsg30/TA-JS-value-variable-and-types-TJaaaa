@@ -7,9 +7,9 @@
 */
 let user = prompt("Enter your name");
 alert(user);
-userName = user;
+let userName = user;
 console.log(`${user} 
-${userName}`);
+${userName}`); 
 let age = 22, isLearning = true;
 user = "John";
 console.log (`${user}
@@ -27,14 +27,12 @@ alert(sum);
 
 // 3. Complete the following code to make the output be 0 2 4 6 8 10?
 
-for (let j = 0; j <= 10; j % 2 == 0){
-    if(j % 2 == 0){    
+for (let j = 0; j <= 10; j+=2){
         console.log(j);
-    }
 }
 
 // 4. Print the odd numbers from 9 to 1 (both inclusive) using a for loop.
-for (let j = 0; j <= 9; j = j +1 ){
+for (let j = 9; j >= 1; j--){
     if( j % 2 !== 0){
       console.log(j);
     }
@@ -42,20 +40,22 @@ for (let j = 0; j <= 9; j = j +1 ){
 
 
 // // 5. Concat all the numbers from 5 to 0 (both inclusive) in descending order using a while loop. (543210)
-while( i < 5){    
-        console.log(j);
-        j == j - 1;
-    
-}
+// let j = 5;
+// let final = "";
+// while( j <= 5){    
+//         final -= j;
+      
+// }
+// console.log();
 
 // 6. Concat all the even numbers from 10 to 0 (both inclusive) in descending order using a while loop. (1086420)
-while( i < 10){
-    if(j % 2 == 0){    
-        console.log(j);
-        j == j - 1;
-    }
+// while( i < 10){
+//     if(j % 2 == 0){    
+//         console.log(j);
+//         j == j - 1;
+//     }
     
-}
+// }
 // Comparision
 
 /* 7. Take two value using prompt and store them in variables `num1` and `num2`. Check whether they are equal or not.
