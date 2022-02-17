@@ -10,7 +10,20 @@ Write a program that asks the user his/her age and check for the following condi
 - `if` the age is greater than 55 then print the message " You are too old to participate in the marthon".
 👇
 */
+let age = Number(prompt("Enter your age"));
+switch(age){
+  case (age = 12-55):
+    alert("You can participate in the marathon");
+  
+  case (age = 4-11):
+    alert(" You are too young to participate in the marathon");
+    
+  case (age <= 4) :
+    alert(" Hey Kiddo! Can You Walk ?");
 
+  case (age > 55) :
+    alert("You are too old to participate in the marthon");
+} 
 // Loops
 /*
 Given a positive integer `n`. Print the word (hello) in format of heeeello (letter 'e' must be repeated `n` times). Take input from prompt and print the result in alert.
